@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>Recipes</h2>
+        <nav>
+            <a href="?recipe=1">Spaghetti Carbonara</a>
+            <a href="?recipe=2">Italian Sausage Spaghetti Squash</a>
+            <a href="?recipe=3">Vegan Mushroom Ragout</a>
+        </nav>
+    </header>
+
+    <div id="buttons">
+        <button id="double">Double recipe</button>
+        <button id="convert">Convert Measures</button>
+    </div>
+
+    <div id="recipe_page">
+
+        <div id="name">
+            <h1 id="recipeName"></h1>
+            <p id="tags"></p>
+            <hr>
+        </div>
+
+        <div id="picture">
+            <img id="image" alt="">
+            <p id="description"></p>
+        </div>
+
+        <div id="info1">
+          
+            <h3>Ingredients:</h3>
+            <ul id="ingredients"></ul>
+            <h3>Nutritional Info:</h3>
+            <ul id="nutritionalInfo"></ul>
+        </div>
+        
+        <div id="info2">
+            <h3>Instructions:</h3>
+            <ul id="instructions"></ul>
+            <h3>Info:</h3>
+            <p id="cuisine"></p>
+            <p id="prepTime"></p>
+            <p id="cookTime"></p>
+            <p id="servings"></p>
+            <p id="difficulty"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
+
